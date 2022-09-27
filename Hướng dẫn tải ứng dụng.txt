@@ -1,0 +1,6 @@
+- Sau khi tải về mở file lab.sql lên và chạy các câu lệnh tạo database.
+- Mở project trong cửa sổ làm việc. Mở terminal
+- Tạo file .env, coppy nôi dung trong file .env.example sang file .env và lưu lại
+- Gõ composer install để cài đặt thư viện (update, dump-autoload)
+- Gõ php artisan key:generate để tạo khóa ứng dụng và nó tự thêm vào file .env
+- Xong!
