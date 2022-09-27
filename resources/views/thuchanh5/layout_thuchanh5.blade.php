@@ -1,5 +1,5 @@
 @extends('common/layout')
-@section('title', 'Thực hành 4 - Giỏ hàng')
+@section('title', 'Thực hành 5 - Giỏ hàng')
 
 @section('link-lib')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css"
@@ -62,7 +62,6 @@
         @yield('middle-content')
     
         <div class="footer">
-            <p>Session ID: {{ session_id(); }}</p>
             <hr>
             <p>&copy 2020 My Laptop Shop</p>
         </div>

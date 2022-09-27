@@ -51,3 +51,11 @@ Route::prefix('/thuchanh4-giohang')->group(function() {
     });
 });
 
+Route::prefix('/thuchanh5-giohang')->group(function() {
+    Route::get('/', function() {
+        return view('/thuchanh5/index');
+    })->name('thuchanh5');
+    Route::post('/', function() {
+        return view('/thuchanh5/index');
+    });
+});
